@@ -12,8 +12,6 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 # from sklearn import countvectorize
 
-#my_list =["The Wildlife of Southern Africa", "Discover African Wildlife: Activity Book", "African Wildlife Coloring Book", "Make It Count - Africa: A Numbers and Nature Counting", "African Wildlife: Images for Use in Collages and Mixed", "East African Wildlife: A Visitor's Guide", "At the Hand of Man: Peril and Hope for Africa's Wildlife", "Southern African Wildlife: A Visitor's Guide", "AFRICAN WILDLIFE: Beautiful Framing Pictures of Animals of African Wild Republic", "The Kingdon Pocket Guide to African Mammals", "The African Wild Dog: Behaviour,  Ecology, and Conservation"]
-
 curdir = os.getcwd()
 my_list = open("test.txt").readlines()
 
